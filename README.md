@@ -41,10 +41,10 @@ devtrack/
 •	In POST /api/issues/, the view creates CriticalIssue for critical, LowPriorityIssue for low, and the base Issue for medium and high. It then calls validate() and returns to_dict() plus the describe() message.
 
 # technology used :
-Django
-Json 
-Python
-Postman
+- Django,
+-Json, 
+-Python,
+-Postman,
 
 
    
