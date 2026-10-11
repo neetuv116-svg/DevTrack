@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Login button not working on mobile",
+    "description": "Users on iOS 17 cannot tap the login button",
+    "status": "open",
+    "priority": "critical",
+    "reporter_id": 1
+  },
+  {
+    "id": 1,
+    "title": " ",
+    "description": "Users on iOS 17 cannot tap the login button",
+    "status": "open",
+    "priority": "critical",
+    "reporter_id": 1
+  },
+  {
+    "id": 2,
+    "title": "Update footer text",
+    "description": "Typo in footer",
+    "status": "open",
+    "priority": "low",
+    "reporter_id": 1
+  },
+  {
+    "id": 3,
+    "title": "Slow search",
+    "description": "Search takes 5s",
+    "status": "in_progress",
+    "priority": "high",
+    "reporter_id": 1
+  }
+]
