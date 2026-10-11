@@ -1,5 +1,5 @@
 # DevTrack 
-Django backend API for tracking engineering issues, similar to a stripped-down GitHub Issues. Reporters file issues, issues have a priority and a status, and everything is stored in two JSON files.
+A Django backend API for tracking engineering issues, similar to a stripped-down GitHub Issues. Reporters file issues, issues have a priority and a status, and everything is stored in two JSON files.
 
 # Project structure:
 
@@ -28,15 +28,23 @@ devtrack/
 
 
 
-# Responses
+# Responses:
 •	201 Created: the record was created.
 •	400 Bad Request: validation failed, for example {"error": "Title cannot be empty"}.
 •	404 Not Found: no record matches the ID, for example {"error": "Issue not found"}.
+
+
 # OOP design
 •	BaseEntity is an abstract base class with an abstract validate() and a shared to_dict().
 •	Reporter and Issue both inherit from BaseEntity.
 •	CriticalIssue and LowPriorityIssue inherit from Issue and override describe().
 •	In POST /api/issues/, the view creates CriticalIssue for critical, LowPriorityIssue for low, and the base Issue for medium and high. It then calls validate() and returns to_dict() plus the describe() message.
+
+# technology used :
+Django
+Json 
+Python
+Postman
 
 
    
